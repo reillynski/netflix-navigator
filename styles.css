@@ -1,0 +1,49 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
+
+.navbar {
+  font-family: Roboto;
+  background-color: #282727;
+  overflow: auto;
+}
+
+.navbar-default {
+    color: #E50914 !important;
+    font-weight: bold;
+}
+
+.navbar-nav {
+    background-color: #282727;
+}
+
+.navbar-nav li a:hover, .navbar-nav > .active > a {
+  background-color: #E50914 !important;
+  color: #FFFFFF !important;
+  font-weight: bold;
+  -moz-border-radius-topright: 3px;
+  -moz-border-radius-topleft: 3px;
+}
+
+.action-button {
+  background-color: #E50914;
+  font-weight: bold;
+  border-radius: 5px;
+  color: #FFFFFF;
+}
+
+.well-panel {
+  margin-right: 15px;
+  margin-bottom: 15px;
+}
+
+.sidebar-panel {
+  padding: 30px;
+}
+
+.pretty.p-default input:checked~.state label:after {
+  background-color: #E50914 !important;
+}
+
+body {
+  background-color: #282727;
+  font-family: Roboto;
+}
